@@ -2,12 +2,12 @@
 int main()
 {
 int i, low, high, mid, n, key, array[100];
-printf("Enter number of elementsn");
+printf("Enter number of elements");
 scanf("%d",&n);
-printf("Enter %d integersn", n);
+printf("Enter %d integers", n);
 for(i = 0; i < n; i++)
 scanf("%d",&array[i]);
-printf("Enter value to findn");
+printf("Enter value to find");
 scanf("%d", &key);
 low = 0;
 high = n - 1;
