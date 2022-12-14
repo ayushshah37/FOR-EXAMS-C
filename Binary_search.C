@@ -11,8 +11,8 @@ printf("Enter value to find");
 scanf("%d", &key);
 low = 0;
 high = n - 1;
-mid = (low+high)/2;
 while (low <= high) {
+mid = (low+high)/2;
 if(array[mid] < key)
 low = mid + 1;
 else if (array[mid] == key) {
